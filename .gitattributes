@@ -1,0 +1,37 @@
+* text=auto
+*.kicad_mod text=auto
+*.kicad_pcb text=auto
+*.md text=auto
+*.txt text=auto
+
+LICENSE text
+AUTHORS text
+
+.gitattributes text
+.gitignore text
+
+*.pro text
+*.PRO text
+
+*.STEP binary
+*.step binary
+*.STP  binary
+*.stp  binary
+*.stl  binary
+*.STL  binary
+
+*.FCStd binary
+.FCStd1 binary
+
+*.wrl -diff
+*.WRL -diff
+
+*.svg text
+*.txt text
+
+*.png binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.pyc binary
+*.pdf binary
