@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name S-Trans-Coils)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Trans-Coils.pretty)(options "")(descr ""))
+  (lib (name S-Semiconductors)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Semiconductors.pretty)(options "")(descr ""))
+  (lib (name S-Resistance)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Resistance.pretty)(options "")(descr ""))
+  (lib (name S-Connectors)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Connectors.pretty)(options "")(descr ""))
+  (lib (name S-Capacitors)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Capacitors.pretty)(options "")(descr ""))
+  (lib (name S-Modules)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Modules.pretty)(options "")(descr ""))
+  (lib (name S-Chips)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Chips.pretty)(options "")(descr ""))
+  (lib (name S-Relay)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Relay.pretty)(options "")(descr ""))
+  (lib (name S-Displays)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Displays.pretty)(options "")(descr ""))
+)

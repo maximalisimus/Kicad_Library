@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name S-Trans-Coils)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Trans-Coils.lib)(options "")(descr ""))
+  (lib (name S-Semiconductors)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Semiconductors.lib)(options "")(descr ""))
+  (lib (name S-Resistance)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Resistance.lib)(options "")(descr ""))
+  (lib (name S-Relay)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Relay.lib)(options "")(descr ""))
+  (lib (name S-Modules)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Modules.lib)(options "")(descr ""))
+  (lib (name S-Displays)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Displays.lib)(options "")(descr ""))
+  (lib (name S-Connectors)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Connectors.lib)(options "")(descr ""))
+  (lib (name S-Chips)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Chips.lib)(options "")(descr ""))
+  (lib (name S-Capacitors)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Capacitors.lib)(options "")(descr ""))
+)

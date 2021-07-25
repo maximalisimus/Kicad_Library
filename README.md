@@ -29,17 +29,11 @@ Kicad и EasyEda библиотеки, а также 3D Модели
 
 После запуска программы **Kicad**, откройте **меню** -> **Настройки** -> **Настройки путей** и добавте нижеуказанную строку.
 
-Например, так:
-```
-Имя                Путь
-KICAD_LIBRARY     /home/mikl/git_ssh/Kicad_Library/Shadow-Lib/
-```
-
 А далее, в **менеджере библиотек компонентов** и **менеджере библиотек посад.мест** добавьте в список глобальных библиотек для каждой библиотеки следующие строки.
 
 Таблица **менеджера библиотек компонентов**:
 ```
-Использовать       Уникальное имя      Путь библиотеки                                       Тип плагина             Параметры        Описание
+Использовать | Уникальное имя | Путь библиотеки | Тип плагина | Параметры | Описание
 ✓                  S-Trans-Coils       ${KICAD_LIBRARY}/Shadow-Symbols/S-Trans-Coils.lib     Legacy
 ✓                  S-Semiconductors    ${KICAD_LIBRARY}/Shadow-Symbols/S-Semiconductors.lib  Legacy
 ✓                  S-Resistance        ${KICAD_LIBRARY}/Shadow-Symbols/S-Resistance.lib      Legacy
@@ -49,6 +43,29 @@ KICAD_LIBRARY     /home/mikl/git_ssh/Kicad_Library/Shadow-Lib/
 ✓                  S-Connectors        ${KICAD_LIBRARY}/Shadow-Symbols/S-Connectors.lib      Legacy
 ✓                  S-Chips             ${KICAD_LIBRARY}/Shadow-Symbols/S-Chips.lib           Legacy
 ✓                  S-Capacitors        ${KICAD_LIBRARY}/Shadow-Symbols/S-Capacitors.lib      Legacy
+```
+
+Глобальная таблица **Symbols** в **Linux** находится в файле: **$HOME/.config/.config/kicad/sym-lib-table**
+
+Глобальная таблица **Symbols** в **Windows** находится в файле: **C:\Users\USERS\AppData\Roaming\kicad\sym-lib-table** или **%AppData%\kicad\sym-lib-table**
+
+Можно просто скопировать код ниже между 1 и последней строкой и вставить в данную таблицу вручную, чтобы не мучаться с долгой вставкой каждой библиотеки выше.
+
+Редактирование данных файлов можно осуществить с помощью утилиты **Notepad++**.
+
+Все пути соответственно поправьте.
+```
+(sym_lib_table
+  (lib (name S-Trans-Coils)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Trans-Coils.lib)(options "")(descr ""))
+  (lib (name S-Semiconductors)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Semiconductors.lib)(options "")(descr ""))
+  (lib (name S-Resistance)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Resistance.lib)(options "")(descr ""))
+  (lib (name S-Relay)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Relay.lib)(options "")(descr ""))
+  (lib (name S-Modules)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Modules.lib)(options "")(descr ""))
+  (lib (name S-Displays)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Displays.lib)(options "")(descr ""))
+  (lib (name S-Connectors)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Connectors.lib)(options "")(descr ""))
+  (lib (name S-Chips)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Chips.lib)(options "")(descr ""))
+  (lib (name S-Capacitors)(type Legacy)(uri ${KICAD_LIBRARY}/Shadow-Symbols/S-Capacitors.lib)(options "")(descr ""))
+)
 ```
 
 Таблица **менеджера библиотек посад.мест**:
@@ -65,7 +82,32 @@ KICAD_LIBRARY     /home/mikl/git_ssh/Kicad_Library/Shadow-Lib/
 ✓                  S-Capacitors        ${KICAD_LIBRARY}/Shadow-Footprints/S-Capacitors.pretty      KiCad
 ```
 
+Глобальная таблица **Footprints** в **Linux** находится в файле: **$HOME/.config/.config/kicad/fp-lib-table**
+
+Глобальная таблица **Footprints** в **Windows** находится в файле: **C:\Users\USERS\AppData\Roaming\kicad\fp-lib-table** или **%AppData%\kicad\fp-lib-table**
+
+Можно просто скопировать код ниже между 1 и последней строкой и вставить в данную таблицу вручную, чтобы не мучаться с долгой вставкой каждой библиотеки выше.
+
+Редактирование данных файлов можно осуществить с помощью утилиты **Notepad++**.
+
+Все пути соответственно поправьте.
+
+```
+(fp_lib_table
+  (lib (name S-Trans-Coils)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Trans-Coils.pretty)(options "")(descr ""))
+  (lib (name S-Semiconductors)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Semiconductors.pretty)(options "")(descr ""))
+  (lib (name S-Resistance)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Resistance.pretty)(options "")(descr ""))
+  (lib (name S-Connectors)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Connectors.pretty)(options "")(descr ""))
+  (lib (name S-Capacitors)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Capacitors.pretty)(options "")(descr ""))
+  (lib (name S-Modules)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Modules.pretty)(options "")(descr ""))
+  (lib (name S-Chips)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Chips.pretty)(options "")(descr ""))
+  (lib (name S-Relay)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Relay.pretty)(options "")(descr ""))
+  (lib (name S-Displays)(type KiCad)(uri ${KICAD_LIBRARY}/Shadow-Footprints/S-Displays.pretty)(options "")(descr ""))
+)
+```
+
+
 [:arrow_up:About](#About)
 
-Автор проектов: [maximalisimus](https://github.com/maximalisimus).
+Автор библиотеки **Shadow-Lib**: [maximalisimus](https://github.com/maximalisimus).
 
