@@ -45,9 +45,9 @@ Kicad и EasyEda библиотеки, а также 3D Модели
 | ✓             | S-Chips          | ${KICAD_LIBRARY}/Shadow-Symbols/S-Chips.lib          | Legacy      |           |          |
 | ✓             | S-Capacitors     | ${KICAD_LIBRARY}/Shadow-Symbols/S-Capacitors.lib     | Legacy      |           |          |
 
-Глобальная таблица **Symbols** в **Linux** находится в файле: **$HOME/.config/.config/kicad/sym-lib-table**
+Глобальная таблица **Symbols** в **Linux** находится в файле: **"$HOME/.config/.config/kicad/sym-lib-table"**
 
-Глобальная таблица **Symbols** в **Windows** находится в файле: **C:\Users\USERS\AppData\Roaming\kicad\sym-lib-table** или **%AppData%\kicad\sym-lib-table**
+Глобальная таблица **Symbols** в **Windows** находится в файле: **"C:\Users\USERS\AppData\Roaming\kicad\sym-lib-table"** или **"%AppData%\kicad\sym-lib-table"**
 
 Можно просто скопировать код ниже между 1 и последней строкой и вставить в данную таблицу вручную, чтобы не мучаться с долгой вставкой каждой библиотеки выше.
 
@@ -82,9 +82,9 @@ Kicad и EasyEda библиотеки, а также 3D Модели
 | ✓            | S-Chips          | ${KICAD_LIBRARY}/Shadow-Footprints/S-Chips.pretty          | KiCad       |           |          |
 | ✓            | S-Capacitors     | ${KICAD_LIBRARY}/Shadow-Footprints/S-Capacitors.pretty     | KiCad       |           |          |
 
-Глобальная таблица **Footprints** в **Linux** находится в файле: **$HOME/.config/.config/kicad/fp-lib-table**
+Глобальная таблица **Footprints** в **Linux** находится в файле: **"$HOME/.config/.config/kicad/fp-lib-table"**
 
-Глобальная таблица **Footprints** в **Windows** находится в файле: **C:\Users\USERS\AppData\Roaming\kicad\fp-lib-table** или **%AppData%\kicad\fp-lib-table**
+Глобальная таблица **Footprints** в **Windows** находится в файле: **"C:\Users\USERS\AppData\Roaming\kicad\fp-lib-table"** или **"%AppData%\kicad\fp-lib-table"**
 
 Можно просто скопировать код ниже между 1 и последней строкой и вставить в данную таблицу вручную, чтобы не мучаться с долгой вставкой каждой библиотеки выше.
 
