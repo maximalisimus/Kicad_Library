@@ -6,6 +6,8 @@ Kicad and EasyEda Library and 3D Models
 
 Kicad и EasyEda библиотеки, а также 3D Модели
 
+<img src="https://raw.githubusercontent.com/maximalisimus/Kicad_Library/main/images/Shadow-Lib-image.jpg"  height="400">
+
 ## Оглавление
 
 1. [Библиотеки](#Библиотеки)
