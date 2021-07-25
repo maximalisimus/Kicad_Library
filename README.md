@@ -45,6 +45,17 @@ Kicad и EasyEda библиотеки, а также 3D Модели
 ✓                  S-Capacitors        ${KICAD_LIBRARY}/Shadow-Symbols/S-Capacitors.lib      Legacy
 ```
 
+| Таблицы       | Это                | Круто |
+| ------------- |:------------------:| -----:|
+| столбец 3     | выровнен вправо    | $1600 |
+| столбец 2     | выровнен по центру |   $12 |
+| зебра-строки  | прикольные         |    $1 |
+
+Markdown | не такой | красивый
+--- | --- | ---
+*Но выводится* | `так же` | **клево**
+1 | 2 | 3
+
 Глобальная таблица **Symbols** в **Linux** находится в файле: **$HOME/.config/.config/kicad/sym-lib-table**
 
 Глобальная таблица **Symbols** в **Windows** находится в файле: **C:\Users\USERS\AppData\Roaming\kicad\sym-lib-table** или **%AppData%\kicad\sym-lib-table**
