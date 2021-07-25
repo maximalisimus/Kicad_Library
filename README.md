@@ -45,7 +45,17 @@ Kicad и EasyEda библиотеки, а также 3D Модели
 ✓                  S-Capacitors        ${KICAD_LIBRARY}/Shadow-Symbols/S-Capacitors.lib      Legacy
 ```
 
-
+| Использовать  | Уникальное имя   | Путь библиотеки                                      | Тип плагина | Параметры | Описание |
+| --------------| -----------------| -----------------------------------------------------| ------------| ----------| ---------|
+| ✓             | S-Trans-Coils    | ${KICAD_LIBRARY}/Shadow-Symbols/S-Trans-Coils.lib    | Legacy      |           |          |
+| ✓             | S-Semiconductors | ${KICAD_LIBRARY}/Shadow-Symbols/S-Semiconductors.lib | Legacy      |           |          |
+| ✓             | S-Resistance     | ${KICAD_LIBRARY}/Shadow-Symbols/S-Resistance.lib     | Legacy      |           |          |
+| ✓             | S-Relay          | ${KICAD_LIBRARY}/Shadow-Symbols/S-Relay.lib          | Legacy      |           |          |
+| ✓             | S-Modules        | ${KICAD_LIBRARY}/Shadow-Symbols/S-Modules.lib        | Legacy      |           |          |
+| ✓             | S-Displays       | ${KICAD_LIBRARY}/Shadow-Symbols/S-Displays.lib       | Legacy      |           |          |
+| ✓             | S-Connectors     | ${KICAD_LIBRARY}/Shadow-Symbols/S-Connectors.lib     | Legacy      |           |          |
+| ✓             | S-Chips          | ${KICAD_LIBRARY}/Shadow-Symbols/S-Chips.lib          | Legacy      |           |          |
+| ✓             | S-Capacitors     | ${KICAD_LIBRARY}/Shadow-Symbols/S-Capacitors.lib     | Legacy      |           |          |
 
 Глобальная таблица **Symbols** в **Linux** находится в файле: **$HOME/.config/.config/kicad/sym-lib-table**
 
