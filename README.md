@@ -8,13 +8,15 @@ Kicad и EasyEda библиотеки, а также 3D Модели.
 
 <img src="https://raw.githubusercontent.com/maximalisimus/Kicad_Library/main/images/Shadow-Lib-image.jpg"  height="400">
 
+<a name="Oglavlenie"></a>
+
 ## Оглавление
 
-1. [Библиотеки](#Библиотеки)
-2. [Настройки](#Настройки)
+1. [Библиотеки](#Libs)
+2. [Настройки](#Config)
 3. [About](#About)
 
-[:arrow_up:Библиотеки](#Библиотеки)
+## <a name="Libs">Библиотеки</a>
 
 Данные библиотеки специально сделаны для **Kicad**.
 
@@ -27,7 +29,11 @@ Kicad и EasyEda библиотеки, а также 3D Модели.
 
 В **Kicad** можно использовать 3D модели 2 форматов: **stp** и **wrl**.
 
-[:arrow_up:Настройки](#Настройки)
+---
+
+[К оглавлению](#Oglavlenie)
+
+## <a name="Config">Настройки</a>
 
 После запуска программы **Kicad**, откройте **меню** -> **Настройки** -> **Настройки путей** и добавте нижеуказанную строку.
 
@@ -180,7 +186,11 @@ Kicad и EasyEda библиотеки, а также 3D Модели.
 )
 ```
 
-[:arrow_up:About](#About)
+---
+
+[К оглавлению](#Oglavlenie)
+
+## <a name="About">About</a>
 
 Автор библиотеки **Shadow-Lib**: [maximalisimus](https://github.com/maximalisimus).
 
