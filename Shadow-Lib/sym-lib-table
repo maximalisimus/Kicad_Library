@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "S-Capacitors")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Capacitors.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Chips")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Chips.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Connectors")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Displays")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Displays.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Modules")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Modules.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Relay")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Relay.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Resistance")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Resistance.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Semiconductors")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Semiconductors.kicad_sym")(options "")(descr ""))
+  (lib (name "S-Trans-Coils")(type "KiCad")(uri "${MIKL_KICAD}/Shadow-Symbols/S-Trans-Coils.kicad_sym")(options "")(descr ""))
+)
